@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		308DBAEE1AAF3DBD00B3E627 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308DBAED1AAF3DBD00B3E627 /* FeedItem.swift */; };
+		30BDA4311AC848F400B87451 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BDA4301AC848F400B87451 /* FilterViewController.swift */; };
+		30BDA4331AC84CDB00B87451 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BDA4321AC84CDB00B87451 /* FilterCell.swift */; };
 		30F994161A8679A00099064F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F994151A8679A00099064F /* AppDelegate.swift */; };
 		30F994191A8679A00099064F /* exchanceAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30F994171A8679A00099064F /* exchanceAGram.xcdatamodeld */; };
-		30F9941B1A8679A00099064F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9941A1A8679A00099064F /* ViewController.swift */; };
 		30F9941E1A8679A00099064F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F9941C1A8679A00099064F /* Main.storyboard */; };
 		30F994201A8679A00099064F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F9941F1A8679A00099064F /* Images.xcassets */; };
 		30F994231A8679A00099064F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30F994211A8679A00099064F /* LaunchScreen.xib */; };
 		30F9942F1A8679A00099064F /* exchanceAGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9942E1A8679A00099064F /* exchanceAGramTests.swift */; };
+		30F994391A867B030099064F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F994381A867B030099064F /* FeedViewController.swift */; };
+		30F9943B1A867DAB0099064F /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9943A1A867DAB0099064F /* FeedCell.swift */; };
+		30F9943D1A867F230099064F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F9943C1A867F230099064F /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +32,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		308DBAED1AAF3DBD00B3E627 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		30BDA4301AC848F400B87451 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		30BDA4321AC84CDB00B87451 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
 		30F994101A8679A00099064F /* exchanceAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exchanceAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F994141A8679A00099064F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30F994151A8679A00099064F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30F994181A8679A00099064F /* exchanceAGram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = exchanceAGram.xcdatamodel; sourceTree = "<group>"; };
-		30F9941A1A8679A00099064F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30F9941D1A8679A00099064F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30F9941F1A8679A00099064F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		30F994221A8679A00099064F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		30F994281A8679A00099064F /* exchanceAGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exchanceAGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F9942D1A8679A00099064F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30F9942E1A8679A00099064F /* exchanceAGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exchanceAGramTests.swift; sourceTree = "<group>"; };
+		30F994381A867B030099064F /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		30F9943A1A867DAB0099064F /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		30F9943C1A867F230099064F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F9943D1A867F230099064F /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,11 +91,15 @@
 			isa = PBXGroup;
 			children = (
 				30F994151A8679A00099064F /* AppDelegate.swift */,
-				30F9941A1A8679A00099064F /* ViewController.swift */,
+				30F994381A867B030099064F /* FeedViewController.swift */,
+				30BDA4301AC848F400B87451 /* FilterViewController.swift */,
 				30F9941C1A8679A00099064F /* Main.storyboard */,
+				30F9943A1A867DAB0099064F /* FeedCell.swift */,
+				30BDA4321AC84CDB00B87451 /* FilterCell.swift */,
 				30F9941F1A8679A00099064F /* Images.xcassets */,
 				30F994211A8679A00099064F /* LaunchScreen.xib */,
 				30F994171A8679A00099064F /* exchanceAGram.xcdatamodeld */,
+				308DBAED1AAF3DBD00B3E627 /* FeedItem.swift */,
 				30F994131A8679A00099064F /* Supporting Files */,
 			);
 			path = exchanceAGram;
@@ -93,6 +108,7 @@
 		30F994131A8679A00099064F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				30F9943C1A867F230099064F /* MobileCoreServices.framework */,
 				30F994141A8679A00099064F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,8 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30F9941B1A8679A00099064F /* ViewController.swift in Sources */,
+				30BDA4331AC84CDB00B87451 /* FilterCell.swift in Sources */,
+				30BDA4311AC848F400B87451 /* FilterViewController.swift in Sources */,
 				30F994161A8679A00099064F /* AppDelegate.swift in Sources */,
+				30F9943B1A867DAB0099064F /* FeedCell.swift in Sources */,
+				30F994391A867B030099064F /* FeedViewController.swift in Sources */,
+				308DBAEE1AAF3DBD00B3E627 /* FeedItem.swift in Sources */,
 				30F994191A8679A00099064F /* exchanceAGram.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +431,7 @@
 				30F994341A8679A00099064F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30F994351A8679A00099064F /* Build configuration list for PBXNativeTarget "exchanceAGramTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +440,7 @@
 				30F994371A8679A00099064F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
