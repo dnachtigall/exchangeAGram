@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		308DBAEE1AAF3DBD00B3E627 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308DBAED1AAF3DBD00B3E627 /* FeedItem.swift */; };
+		3027591B1AF5349000526445 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3027591A1AF5349000526445 /* ProfileViewController.swift */; };
+		3027591D1AF5386000526445 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3027591C1AF5386000526445 /* FacebookSDK.framework */; };
+		304AE1061AD1966D00C71D4E /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304AE1051AD1966D00C71D4E /* FeedItem.swift */; };
 		30BDA4311AC848F400B87451 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BDA4301AC848F400B87451 /* FilterViewController.swift */; };
 		30BDA4331AC84CDB00B87451 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BDA4321AC84CDB00B87451 /* FilterCell.swift */; };
 		30F994161A8679A00099064F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F994151A8679A00099064F /* AppDelegate.swift */; };
@@ -32,7 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		308DBAED1AAF3DBD00B3E627 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		3027591A1AF5349000526445 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3027591C1AF5386000526445 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		3027591F1AF539BC00526445 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		304AE1051AD1966D00C71D4E /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		30BDA4301AC848F400B87451 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		30BDA4321AC84CDB00B87451 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
 		30F994101A8679A00099064F /* exchanceAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exchanceAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30F9943D1A867F230099064F /* MobileCoreServices.framework in Frameworks */,
+				3027591D1AF5386000526445 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		304AE1071AD1969E00C71D4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30F994171A8679A00099064F /* exchanceAGram.xcdatamodeld */,
+				304AE1051AD1966D00C71D4E /* FeedItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		30F994071A8679A00099064F = {
 			isa = PBXGroup;
 			children = (
@@ -90,16 +105,17 @@
 		30F994121A8679A00099064F /* exchanceAGram */ = {
 			isa = PBXGroup;
 			children = (
+				304AE1071AD1969E00C71D4E /* Model */,
 				30F994151A8679A00099064F /* AppDelegate.swift */,
 				30F994381A867B030099064F /* FeedViewController.swift */,
 				30BDA4301AC848F400B87451 /* FilterViewController.swift */,
 				30F9941C1A8679A00099064F /* Main.storyboard */,
+				3027591A1AF5349000526445 /* ProfileViewController.swift */,
+				3027591F1AF539BC00526445 /* Bridging-Header.h */,
 				30F9943A1A867DAB0099064F /* FeedCell.swift */,
 				30BDA4321AC84CDB00B87451 /* FilterCell.swift */,
 				30F9941F1A8679A00099064F /* Images.xcassets */,
 				30F994211A8679A00099064F /* LaunchScreen.xib */,
-				30F994171A8679A00099064F /* exchanceAGram.xcdatamodeld */,
-				308DBAED1AAF3DBD00B3E627 /* FeedItem.swift */,
 				30F994131A8679A00099064F /* Supporting Files */,
 			);
 			path = exchanceAGram;
@@ -108,6 +124,7 @@
 		30F994131A8679A00099064F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3027591C1AF5386000526445 /* FacebookSDK.framework */,
 				30F9943C1A867F230099064F /* MobileCoreServices.framework */,
 				30F994141A8679A00099064F /* Info.plist */,
 			);
@@ -236,7 +253,8 @@
 				30F994161A8679A00099064F /* AppDelegate.swift in Sources */,
 				30F9943B1A867DAB0099064F /* FeedCell.swift in Sources */,
 				30F994391A867B030099064F /* FeedViewController.swift in Sources */,
-				308DBAEE1AAF3DBD00B3E627 /* FeedItem.swift in Sources */,
+				304AE1061AD1966D00C71D4E /* FeedItem.swift in Sources */,
+				3027591B1AF5349000526445 /* ProfileViewController.swift in Sources */,
 				30F994191A8679A00099064F /* exchanceAGram.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,9 +380,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/peacekeeper/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = exchanceAGram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "exchanceAGram/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -372,9 +395,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/peacekeeper/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = exchanceAGram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "exchanceAGram/Bridging-Header.h";
 			};
 			name = Release;
 		};
